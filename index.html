@@ -667,10 +667,46 @@ read_idx = (read_idx + 1) % SIZE;
         <td>2</td>
         <td>非同步</td>
         <td>~1 Mbps</td>
+        <td>點對點</td>
+        <td>Debug, GPS, 藍牙</td>
+       </tr>
+       <tr class="border-b border-slate-700/50">
+        <td class="py-3 text-emerald-300 font-medium">I2C</td>
+        <td>2</td>
+        <td>同步</td>
+        <td>~3.4 Mbps</td>
+        <td>多從設備</td>
+        <td>感測器, EEPROM</td>
+       </tr>
+       <tr class="border-b border-slate-700/50">
+        <td class="py-3 text-amber-300 font-medium">SPI</td>
+        <td>4+</td>
+        <td>同步</td>
+        <td>~50 Mbps</td>
+        <td>多從設備</td>
+        <td>Flash, 螢幕, SD卡</td>
+       </tr>
+       <tr class="border-b border-slate-700/50">
+        <td class="py-3 text-purple-300 font-medium">I2S</td>
+        <td>3</td>
+        <td>同步</td>
+        <td>~12 Mbps</td>
+        <td>點對點</td>
+        <td>音訊 DAC/ADC</td>
+       </tr>
+       <tr>
+        <td class="py-3 text-pink-300 font-medium">USB</td>
+        <td>4</td>
+        <td>同步</td>
+        <td>~20 Gbps</td>
+        <td>星狀/樹狀</td>
+        <td>幾乎所有外設</td>
+       </tr>
+      </tbody>
+     </table>
+    </section>
+   </main>
+  </div>
 
-        ])
-      });
-    }
-  </script>
  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d5d1753239bf1dc',t:'MTc3MjQxOTc5Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
